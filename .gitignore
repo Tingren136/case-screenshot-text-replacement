@@ -1,0 +1,16 @@
+__pycache__/
+*.pyc
+.env
+.env.*
+*.local.json
+*.sqlite
+*.db
+*.log
+private/
+work/
+outputs/
+*.png
+*.jpg
+*.jpeg
+*.webp
+替换映射*.json

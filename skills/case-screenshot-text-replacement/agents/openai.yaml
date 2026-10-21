@@ -1,0 +1,4 @@
+interface:
+  display_name: "案例截图改字与前后对应"
+  short_description: "基于真实截图替换隐私文字，保留界面与真实状态，整组图片使用同一套对应关系"
+  default_prompt: "用 $case-screenshot-text-replacement 处理这组案例截图，替换隐私文字并核对前后标题和项目对应关系。"

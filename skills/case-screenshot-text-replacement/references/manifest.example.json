@@ -1,0 +1,27 @@
+{
+  "case_id": "demo-case",
+  "mapping_version": 1,
+  "entities": [
+    {
+      "key": "chat-01",
+      "type": "chat",
+      "private_source_match": "仅在私有副本填写原始识别线索",
+      "public_before": "接着上次的旅行攻略继续写，先看看交通",
+      "public_proposed_title": null,
+      "public_applied_title": null,
+      "project_key": null,
+      "identity_status": "awaiting_real_followup_screenshot",
+      "note": "后续字段仅根据真实截图补全；不预造执行结果"
+    }
+  ],
+  "frames": [
+    {
+      "key": "before",
+      "source": "私有原件路径",
+      "stage": "before",
+      "entity_keys": ["chat-01"],
+      "output": "正式成果路径",
+      "reviewed": false
+    }
+  ]
+}
